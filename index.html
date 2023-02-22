@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOL Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <script src="./jquery-3.6.0.js"></script>
+  <script src="./script.js"></script>
+</head>
+<body>
+   <header>
+      <div class="h_top">
+         <h1><a href="./index.html"><img src="./img/logo.png"></a></h1>
+         <nav>
+            <a href="./portfolio.html" class="port">PORTFOLIO</a>
+            <a href="./resume.pdf" target="_blank" class="resume">RESUME</a>
+            <a href="./about.html" class="about">ABOUT</a>
+         </nav>
+      </div>
+</header>
+   <div class="txt">
+      <h1>SOL<br>
+   PORTFOLIO<br></h1>
+   <p class="txt_bottom">Web Publisher<span class="txt_bullet">·</span>Choi Sol</p>
+   </div>
+   	<!-- 팝업 영역 -->
+ <div class="popup_wrap">
+	<div class="popup_bg active"></div>
+  <div class="popup_box active">
+	<div class="popup_tit">해상도 지원 안내창</div>
+	<div class="txt-box">해당 사이트는 <span class="txt-box-port">포트폴리오</span>이며,<br> <span class="txt-box-port">1920px 해상도에 최적화</span> 되었습니다.</div>
+	<div class="btn-box row">
+	  <input class="cell" type="checkbox">
+	  <p class="btn-txt cell">오늘 하루 열지 않기</p>
+	  <p class="btn-close cell">닫기</p>
+	</div>
+  </div>
+</div>
+<script src="./popup.js"></script>
+</body>
+</html>
